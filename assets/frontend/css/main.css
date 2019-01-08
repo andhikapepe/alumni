@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("../img/startup.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    z-index: -1;
+}
+
+.title {
+    opacity: 1;
+    position: absolute;    
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;  
+}
+
+.title span.subtitle {
+    z-index: 5;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;  
+}
+
+.footer {
+    background-color: black;
+    height: 250px;
+}
+
+.margin {
+    margin-top: 100px;
+}
+
+.marginmd {
+    margin-top: 50px;
+}
+
+.marginxs {
+    margin-top: 25px;
+}
+
+.line {
+    color: inherit;
+}
+
+.h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.h1:before,
+.h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.justify {
+    text-align: justify;
+}
+
